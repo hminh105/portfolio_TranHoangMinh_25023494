@@ -103,7 +103,7 @@ a {
 }
 
 .brand small,
-.sidebar-note span,
+
 .eyebrow,
 .section-kicker,
 .profile-grid span {
@@ -133,24 +133,9 @@ a {
   background: rgba(29, 161, 242, 0.16);
   color: var(--text);
   box-shadow: var(--glow);
+
 }
 
-.sidebar-note {
-  position: absolute;
-  right: 22px;
-  bottom: 28px;
-  left: 22px;
-  padding: 16px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: rgba(16, 39, 65, 0.64);
-}
-
-.sidebar-note strong {
-  display: block;
-  margin-top: 4px;
-  color: var(--mint);
-}
 
 main {
   width: min(1180px, calc(100% - 40px));
@@ -653,10 +638,6 @@ h3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .sidebar-note {
-    position: static;
-    margin-top: 18px;
-  }
 
   .hero,
   .intro {

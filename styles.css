@@ -103,7 +103,6 @@ a {
 }
 
 .brand small,
-
 .eyebrow,
 .section-kicker,
 .profile-grid span {
@@ -133,9 +132,7 @@ a {
   background: rgba(29, 161, 242, 0.16);
   color: var(--text);
   box-shadow: var(--glow);
-
 }
-
 
 main {
   width: min(1180px, calc(100% - 40px));
@@ -637,7 +634,6 @@ h3 {
   .nav-list {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-
 
   .hero,
   .intro {
